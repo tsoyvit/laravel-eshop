@@ -12,5 +12,3 @@ Route::get('/product', ProductComponent::class)
 
 Route::get('/category', CategoryComponent::class)
     ->name('category');
-
-
