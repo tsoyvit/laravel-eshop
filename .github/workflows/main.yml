@@ -53,5 +53,3 @@ jobs:
           projectBaseDir: .
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_PROJECT_KEY: tsoyvit_laravel-eshop
-          SONAR_ORGANIZATION: vitso1
