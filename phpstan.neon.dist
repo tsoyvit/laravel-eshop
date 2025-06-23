@@ -1,0 +1,24 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+    - vendor/nesbot/carbon/extension.neon
+
+parameters:
+    paths:
+        - app/
+        - routes/
+        - tests/
+    level: 8
+
+    checkModelProperties: true
+
+    ignoreErrors:
+#        - '#Call to an undefined method Illuminate\\Database\\Eloquent\\Builder<.*>::allowedFilters\(\)#'
+#        - identifier: missingType.generics
+
+
+#    ignoreErrors:
+#        - '#Call to an undefined method Illuminate\\.*#'
+#        - '#Property App\\Models\\.* not found#'
+
+
+    # memory_limit: "2G"
